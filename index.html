@@ -1,0 +1,141 @@
+ <!DOCTYPE html>
+  <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Layout with Flexbox & Grid</title>
+
+    </head>
+   <body>
+      <!-- Header -->
+    <header>
+          <div class="container">
+            <div class="header-content">
+                <div class="logo">LayoutMaster</div>
+                <nav>
+                    <button class="mobile-menu-btn">☰</button>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                         </ul>
+                </nav>
+               </div>
+           </div>
+       </header>
+       
+    <!-- Main Content -->
+    <main class="container">
+        <div class="main-grid">
+            <!-- Content Area -->
+            <div class="content">
+                <section class="content-section">
+                    <h2>Welcome to Our Website</h2>
+                    <p>This responsive layout combines the power of CSS Grid 
+                    and Flexbox to create an adaptable user interface that works on all screen sizes.</p>
+
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-img">Image</div>
+                            <div class="card-content">
+                                <h3>Web Development</h3>
+                                <p>Creating responsive and accessible websites using modern technologies.</p>
+                            </div>
+                        
+                        <div class="card">
+                            <div class="card-img">Image</div>
+                            <div class="card-content">
+                                <h3>UI/UX Design</h3>
+                                <p>Designing intuitive user interfaces with exceptional user experience.</p>
+
+                                </div>
+                           </div>
+                        <div class="card">
+                            <div class="card-img">Image</div>
+                            <div class="card-content">
+                                <h3>Mobile Applications</h3>
+                                <p>Building cross-platform mobile applications with native performance.</p>
+                            </div>
+                            </div>
+                           </div>
+                </section>
+                
+                <section class="content-section">
+                    <h2>Our Services</h2>
+                    <p>We offer a wide range of digital services to help your business grow and succeed in the online world.</p>
+                    <div class="cards">
+                        <div class="card">
+                            <div class="card-img">Image</div>
+                            <div class="card-content">
+                                <h3>E-commerce Solutions</h3>
+                                <p>Complete online store development with secure payment integration.</p>
+                            </div>
+                         </div>
+                        <div class="card">
+                            <div class="card-img">Image</div>
+                            <div class="card-content">
+                                <h3>SEO Optimization</h3>
+                                <p>Improve your search engine rankings and increase organic traffic.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <aside>
+                <div class="sidebar-widget">
+                    <h3>Latest News</h3>
+                    <p>Stay updated with the latest trends in web development and design.</p>
+</div>
+                   
+                <div class="sidebar-widget">
+                    <h3>Popular Tags</h3>
+                    <p>#WebDesign #Development #Responsive #UX #UI #CSSGrid #Flexbox</p>
+             </div>
+            </aside>
+         </div>
+    </main>
+  
+       <!-- Footer -->
+       <footer>
+    <div class="container">
+        <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>We create responsive, accessible websites using modern web technologies.</p>
+                    </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                 </div>
+                 
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@example.com</p>
+                    <p>Phone: +1 (123) 456-7890</p>
+                 </div>
+              </div>
+
+              <div class="footer-bottom">
+                <p>&copy; 2023 LayoutMaster. All rights reserved.</p>
+             </div>
+         </div>
+     </footer>
+ 
+<script>
+        // Mobile menu toggle functionality
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('active');
+      });
+ </script>
+    </body>
+ </html>
